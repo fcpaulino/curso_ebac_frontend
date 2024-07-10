@@ -1,0 +1,40 @@
+{
+    margin:0;
+    padding:0;
+    box-sizing:0;
+}
+
+header{
+    display:block;
+    place-items:center;
+}
+
+header img{
+    width: 1280px;
+    height:auto;
+}
+
+.container{
+    max-width:1280px;
+    width:100%;
+    margin:0 auto;
+}
+
+form input,
+form textarea,
+form button {
+    display:block;
+    place-items: center;
+    width:320px;
+    margin-bottom:8px;
+    padding:8px;
+    resize:none
+}
+
+form button{
+    background-color: rgb(226, 204, 9);
+    color:black;
+    font-weight: bold;
+    border:none;
+    cursor:pointer;
+}
