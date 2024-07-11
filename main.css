@@ -1,0 +1,84 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    background-color: #fcf2ea;
+    padding-top: 100px;
+}
+
+header {
+    display:flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+header img {
+    height: 100px;
+    margin-right: 16px;
+}
+
+header h1{
+    font-size: 60px;
+    color: #C47D79;
+    font-family: "Great Vibes", cursive;
+}
+
+.container {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+form {
+    display: flex;
+    max-width:640px;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+form button {
+    background-color: rgba(196, 125, 121, 0.5);
+    color: #ffff;
+    font-size: 18px;
+    font-weight: bold;
+    border: #C47D79;
+    border-radius:5px;
+    cursor:pointer;
+    padding:8px;
+}
+
+form input {
+    font-size: 18px;
+    color: rgba(49, 49, 49, 0.5);
+    background-color: #F9EFE7;
+    border:none;
+    border-bottom: 2px solid rgba(196, 125, 121, 0.4);
+    padding:8px;
+    margin-bottom: 10px;
+}
+
+table {
+    max-width:640px;
+    width:100%;
+}
+
+table th{
+    border-bottom: 2px solid rgba(255, 170, 102, 0.2);
+    color: #C47D79;
+    padding:8px;
+    font-size:20px;
+    text-align: left;
+    font-weight: bold;
+}
+
+table td{
+    font-size:18px;
+    color:#C47D79;
+    padding: 8px;
+}
+
